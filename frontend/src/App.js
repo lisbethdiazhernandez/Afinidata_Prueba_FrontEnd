@@ -186,11 +186,11 @@ class App extends React.Component {
                             <div onClick={() => self.strikeUnstrike(task)} style={{flex:7}}>
 
                                 {task.state == false ? (
-                                    <span className="task-wrapper flex-wrapper">✔︎{task.name}</span>
+                                    <span className="task-wrapper flex-wrapper">✖︎{task.name}</span>
 
                                   ) : (
 
-                                    <strike className="task2-wrapper flex-wrapper">✖︎{task.name}</strike>
+                                    <strike className="task2-wrapper flex-wrapper">✔︎{task.name}</strike>
                                   )}
   
                             </div>
